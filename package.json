@@ -1,0 +1,25 @@
+{
+  "name": "javascript-algorithms",
+  "version": "1.0.0",
+  "description": "Exercises of the online course: [A Practical Guide to Algorithms with JavaScript](https://frontendmasters.com/courses/practical-algorithms)",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolaspayot/javascript-algorithms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolaspayot/javascript-algorithms/issues"
+  },
+  "homepage": "https://github.com/nicolaspayot/javascript-algorithms#readme",
+  "devDependencies": {
+    "prettier": "^2.5.1",
+    "vite": "^2.7.13",
+    "vitest": "^0.2.7"
+  }
+}

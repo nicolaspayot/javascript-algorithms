@@ -20,6 +20,6 @@
   "devDependencies": {
     "prettier": "^2.5.1",
     "vite": "^2.7.13",
-    "vitest": "^0.2.7"
+    "vitest": "^0.2.8"
   }
 }

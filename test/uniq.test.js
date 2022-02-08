@@ -1,5 +1,4 @@
-import { assert, describe, expect, test } from 'vitest';
-
+import { describe, test, expect } from 'vitest';
 import { isUniq, isUniq2, uniqSort } from '../src/uniq';
 
 describe('uniq', () => {

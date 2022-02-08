@@ -24,11 +24,12 @@ export function isUniq2(arr) {
     return true;
 }
 
-// Linear complexity: O(n)
+// Logarithmic complexity: O(n log n)
 export function uniqSort(arr) {
     const cache = { [arr[0]]: true };
     const results = [arr[0]];
 
+    // O(n)
     for (let i = 1; i < arr.length; i++) {
         if (!cache[arr[i]]) {
             results.push(arr[i]);
@@ -36,5 +37,6 @@ export function uniqSort(arr) {
         }
     }
 
+    // O(n log)
     return results.sort((a, b) => a - b);
 }

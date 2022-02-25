@@ -1,4 +1,4 @@
-import { beforeEach, describe, test, expect, vi } from 'vitest';
+import { beforeEach, describe, expect, test, vi } from 'vitest';
 import * as times10Mod from '../src/memoization/times10';
 import { memoTimes10 } from '../src/memoization/memoTimes10';
 import { memoClosureTimes10 } from '../src/memoization/memoClosureTimes10';
